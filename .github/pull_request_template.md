@@ -19,7 +19,7 @@
 
 ## 이슈 링크
 
--   [ImpoliteChatbot (이슈 주소)] #이슈번호
+-   [ImPro] #이슈번호
 
 ## ETC
 
