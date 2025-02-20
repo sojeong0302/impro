@@ -1,7 +1,13 @@
-import { HeaderContainer } from './Header.style';
+import { HeaderContainer, LogoDiv } from './Header.style';
 
 function Header() {
-    return <>ImPro</>;
+    return (
+        <>
+            <HeaderContainer>
+                <LogoDiv>ImPro</LogoDiv>
+            </HeaderContainer>
+        </>
+    );
 }
 
 export default Header;
