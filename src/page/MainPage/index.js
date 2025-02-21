@@ -1,4 +1,5 @@
 import Header from '../../component/Header/index.js';
+import Button from '../../component/Button/index.js';
 import {
     MainPageContainer,
     MainPageContentDiv,
@@ -19,6 +20,7 @@ function MainPage() {
                         <PotoSelectLogo src='/assets/Queue.png' alt='선택 로고' />
                     </PotoSelectDiv>
                     <PotoDiv />
+                    <Button />
                 </MainPageContentDiv>
             </MainPageContainer>
         </>

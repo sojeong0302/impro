@@ -17,6 +17,7 @@ export const MainPageContentDiv = styled.div`
     width: 60em;
     height: 50em;
     flex-direction: column;
+    border-radius: 5px;
 `;
 
 export const PotoSelectDiv = styled.div`
@@ -25,7 +26,6 @@ export const PotoSelectDiv = styled.div`
     justify-content: center;
     gap: 2%;
     width: 50%;
-
     margin: 5%;
 `;
 
@@ -41,7 +41,7 @@ export const PotoSelectLogo = styled.img`
 
 export const PotoDiv = styled.div`
     background-color: white;
-    height: 40em; // 화면 높이의 20%로 설정
-    width: 55em; // 화면 너비의 20%로 설정
-    margin: 5%;
+    height: 40em;
+    width: 55em;
+    border-radius: 5px;
 `;
