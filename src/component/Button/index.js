@@ -1,11 +1,10 @@
 import { ButtonContainer, ButtonFont } from './Button.style';
 
-function Button() {
-    // const navigate = useNavigate();
+function Button({ ButtonClick, ButtonMessage }) {
     return (
         <>
-            <ButtonContainer>
-                <ButtonFont>변환하기</ButtonFont>
+            <ButtonContainer onClick={ButtonClick}>
+                <ButtonFont>{ButtonMessage}</ButtonFont>
             </ButtonContainer>
         </>
     );
