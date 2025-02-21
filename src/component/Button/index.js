@@ -1,10 +1,10 @@
 import { ButtonContainer, ButtonFont } from './Button.style';
 
-function Button() {
+function Button({ ButtonClick, ButtonMessage }) {
     return (
         <>
-            <ButtonContainer>
-                <ButtonFont>변환하기</ButtonFont>
+            <ButtonContainer onClick={ButtonClick}>
+                <ButtonFont>{ButtonMessage}</ButtonFont>
             </ButtonContainer>
         </>
     );

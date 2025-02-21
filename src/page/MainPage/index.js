@@ -8,8 +8,13 @@ import {
     PotoSelectLogo,
     PotoDiv,
 } from './MainPage.style.js';
+import { useNavigate } from 'react-router-dom';
 
 function MainPage() {
+    const navigate = useNavigate();
+    const PhotoConversion = () => {
+        navigate('/download');
+    };
     return (
         <>
             <Header />
@@ -20,7 +25,7 @@ function MainPage() {
                         <PotoSelectLogo src='/assets/Queue.png' alt='선택 로고' />
                     </PotoSelectDiv>
                     <PotoDiv />
-                    <Button />
+                    <Button onClick={PhotoConversion} ButtonMessage='변환하기' />
                 </MainPageContentDiv>
             </MainPageContainer>
         </>
