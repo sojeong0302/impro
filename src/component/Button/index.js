@@ -1,7 +1,6 @@
 import { ButtonContainer, ButtonFont } from './Button.style';
 
 function Button() {
-    // const navigate = useNavigate();
     return (
         <>
             <ButtonContainer>
