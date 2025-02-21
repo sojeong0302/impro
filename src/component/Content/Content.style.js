@@ -18,6 +18,7 @@ export const MainPageContentDiv = styled.div`
     height: 50em;
     flex-direction: column;
     border-radius: 5px;
+    border: 1px solid black;
 `;
 
 export const PotoSelectDiv = styled.div`
@@ -44,4 +45,5 @@ export const PotoDiv = styled.div`
     height: 40em;
     width: 55em;
     border-radius: 5px;
+    border: 1px solid black;
 `;
